@@ -1,6 +1,7 @@
-# MpageDeveloperTemplate
+# Clinical Office: MPage Developer - Project Template
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+Make sure you rename in all files to replace mpage-developer-template with the name of your project or your
+project will be compiled under the wrong name.
 
 ## Development server
 

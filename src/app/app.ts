@@ -1,5 +1,4 @@
 import {Component, inject, OnInit} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
 import {CUSTOM_DATE_FORMATS} from './app.config';
 import {
   MPageService,

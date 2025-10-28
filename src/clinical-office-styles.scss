@@ -106,7 +106,7 @@
 }
 
 .co-wdate {
-  width: 10em;
+  width: 11em !important;
 }
 
 /* MPage Table */
@@ -300,6 +300,10 @@ div.co-default-field {
     height: 100%;
   }
 
+  .co-input-color {
+    height: 1.5em !important;
+  }
+
   .co-field-input {
     > input, textarea {
       background-color: inherit;
@@ -330,6 +334,7 @@ div.co-default-field {
 }
 
 div.co-context-menu {
+  overflow: auto;
   li {
     padding: 5px 5px 5px 5px;
   }
@@ -387,6 +392,16 @@ div.co-select-template, div.co-context-menu {
 .co-tree-search-found {
   background: var(--tree-search-found-background) !important;
   color: var(--tree-search-found-color) !important;
+}
+
+.co-tabbed-menu {
+  border: var(--tabbed-menu-border);
+  background: var(--tabbed-menu-background);
+  flex-wrap: wrap;
+
+  > button {
+    white-space: nowrap;
+  }
 }
 
 /*
@@ -590,8 +605,8 @@ div.dialog-button-bar {
 }
 
 .dialog-content {
-  padding: var(--dialog-padding);
-  background: var(--dialog-background);
+  padding: var(--dialog-content-padding);
+  background: var(--dialog-content-background);
 }
 
 .co-notification {

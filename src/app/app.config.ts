@@ -11,7 +11,6 @@ import {provideRouter, withHashLocation} from '@angular/router';
 import {routes} from './app.routes';
 import {provideHttpClient, withFetch} from '@angular/common/http';
 import {ConfigService} from '@clinicaloffice/mpage-developer';
-import {ErrorHandlerService} from '@clinicaloffice/mpage-developer';
 
 // Custom date formats
 export const CUSTOM_DATE_FORMATS = {
@@ -40,6 +39,5 @@ export const appConfig: ApplicationConfig = {
       const configService = inject(ConfigService);
       return configService.loadConfig();
     }),
-    {provide: ErrorHandler, useClass: ErrorHandlerService}
   ]
 };

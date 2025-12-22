@@ -1,6 +1,5 @@
 import {
   ApplicationConfig,
-  ErrorHandler,
   inject,
   provideAppInitializer,
   provideBrowserGlobalErrorListeners,

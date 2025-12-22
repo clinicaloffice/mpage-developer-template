@@ -11,7 +11,7 @@ import {
   DiagnosisService,
   EncounterService,
   Dialog,
-  OrganizationService, PersonService, PhoneService, ProblemService, ReferenceService, PrsnlService
+  OrganizationService, PersonService, PhoneService, ProblemService, ReferenceService, PrsnlService, MpageIconComponent
 } from '@clinicaloffice/mpage-developer';
 
 @Component({

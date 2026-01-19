@@ -19,7 +19,7 @@
           "options": {
             "outputPath": {
               "base": "dist/mpage-developer-template",
-              "browser": "",
+              "browser": ""
             },
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",

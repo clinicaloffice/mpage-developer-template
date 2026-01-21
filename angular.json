@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "allowedCommonJsDependencies": ["crypto-js"],
             "outputPath": {
               "base": "dist/mpage-developer-template",
               "browser": ""

@@ -20,7 +20,7 @@ import {
   templateUrl: './app.html',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [MPageService, AddressService, AllergyService, CodeValueService, ConfigService, CustomService,
+  providers: [MPageService, AddressService, AllergyService, CodeValueService, CustomService,
     DiagnosisService, EncounterService, Dialog, OrganizationService, PersonService, PhoneService,
     ProblemService, PrsnlService, ReferenceService]
 })

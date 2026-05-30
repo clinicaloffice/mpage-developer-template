@@ -11,7 +11,8 @@ import {
   DiagnosisService,
   EncounterService,
   Dialog,
-  OrganizationService, PersonService, PhoneService, ProblemService, ReferenceService, PrsnlService, MpageIconComponent
+  OrganizationService, PersonService, PhoneService, ProblemService, ReferenceService, PrsnlService, MpageIconComponent,
+  MPageLogService
 } from '@clinicaloffice/mpage-developer';
 
 @Component({
@@ -20,7 +21,7 @@ import {
   templateUrl: './app.html',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [MPageService, AddressService, AllergyService, CodeValueService, CustomService,
+  providers: [MPageService, MPageLogService, ConfigService, AddressService, AllergyService, CodeValueService, CustomService,
     DiagnosisService, EncounterService, Dialog, OrganizationService, PersonService, PhoneService,
     ProblemService, PrsnlService, ReferenceService]
 })

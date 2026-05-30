@@ -37,6 +37,6 @@ export const appConfig: ApplicationConfig = {
       // Load the config.json file (if not using, remove the next two lines or the entire provideAppInitializer section.
       const configService = inject(ConfigService);
       return configService.loadConfig();
-    }),
+    })
   ]
 };
